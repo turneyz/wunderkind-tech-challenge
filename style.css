@@ -1,0 +1,205 @@
+
+body {
+    width: 70%;
+    margin: auto;
+    margin-top: 2em;
+    background-color: white;
+}
+button {
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+    margin: auto;
+    font-size: xx-large;
+    cursor: default;
+}
+
+
+#logo {
+    height: 3em;
+    width: 90%;
+    text-align: center;
+    font-size: x-large;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+img {
+    max-width: 45%;
+    max-height: 3em;
+}
+
+
+#menuBar {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 2em;
+    font-size: x-large;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+#homeButton, #kitchenButton,
+#jewelryButton, #womenButton, 
+#menButton, #newButton,
+#saleButton {
+    font-size: 20px;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 30em;
+    /* border: 1px solid black; */
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+}
+#mainContentHead {
+    font-size: 72px;
+    color: rgba(25, 25, 219, 0.625);
+    text-align: center;
+}
+#mainContentInfo {
+    font-size: 30px;
+    text-align: center;
+
+}
+#mainContentButton {
+    margin: 0 auto;
+}
+#cartButton {
+    width: 10em;
+    height: 3em;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(25, 25, 219, 0.625);
+}
+
+
+
+
+#advertisementDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#quoteDiv, #donateDiv,
+#returnsDiv {
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+    padding: .5em;
+}
+#quoteDiv {
+    color: rgb(244, 244, 244);
+    background-color: rgb(121, 194, 138);
+}
+#donateDiv {
+    color: rgb(244, 244, 244);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTURBlJKEWM3PE9NnMzd52pno5dCX7odE6KPQ&usqp=CAU);
+}
+#btg {
+    font-size: xx-large;
+}
+#learnButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+
+
+
+#optionsBar {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 2em;
+    font-size: medium;
+    /* border-top: 2px solid black; */
+    border-bottom: 2px solid black;
+    margin: auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+#contactButton, #aboutButton,
+#catalogRequestButton, #giftsAndBulkButton, 
+#blogButton {
+    font-size: medium;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+
+
+
+#closingDiv {
+    width: 90%;
+    margin: auto;
+    padding: 2em;
+    font-size: medium;
+}
+
+
+
+
+.fa {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    margin-left: .25em;  
+    margin-right: .25em;  
+    font-size: 30px;  
+    width: 2em;
+    height: 1.5em;
+    border-radius: 50%;
+}  
+.fa-facebook { 
+    margin-left: 2em; 
+    background: #39719c;  
+    color: white;  
+}
+.fa-twitter {  
+    background: #39719c;  
+    color: white;  
+}
+.fa-pinterest {  
+    background: #39719c;   
+    color: white;  
+}
+.fa-instagram {  
+    background: #39719c;  
+    color: white;  
+}
+
+
+
+
+footer {
+    width: 90%;
+    margin: auto;
+    font-size: small;
+}
+
+
