@@ -1,6 +1,6 @@
 
 body {
-    width: 70%;
+    width: 50%;
     margin: auto;
     margin-top: 2em;
     background-color: white;
@@ -105,24 +105,34 @@ img {
 #returnsDiv {
     border: 1px solid black;
     width: 30%;
+    height: 8em;
     text-align: center;
     padding: .5em;
+    margin: .5em;
 }
 #quoteDiv {
+    font-size: large;
     color: rgb(244, 244, 244);
     background-color: rgb(121, 194, 138);
 }
 #donateDiv {
+    font-size: 28px;
     color: rgb(244, 244, 244);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTURBlJKEWM3PE9NnMzd52pno5dCX7odE6KPQ&usqp=CAU);
+    max-height: min-content;
+    padding: 1.5em;
 }
 #btg {
-    font-size: xx-large;
+    font-size: 40px;
 }
 #learnButton {
     background-color: transparent;
     color: white;
     border: none;
+}
+#returnsDiv {
+    background-color: aquamarine;
+    font-size: x-large;
 }
 
 
@@ -142,6 +152,10 @@ img {
     padding-top: 1em;
     padding-bottom: 2em;
 }
+#optionsButtons {
+    display: flex;
+    width: 50%;
+}
 #contactButton, #aboutButton,
 #catalogRequestButton, #giftsAndBulkButton, 
 #blogButton {
@@ -149,6 +163,10 @@ img {
     padding: 0;
     border: none;
     background: none;
+}
+#socialLinks {
+    display: flex;
+    width: 20%;
 }
 
 
@@ -168,7 +186,7 @@ img {
     text-align: center;
     margin: auto;
     padding-top: 10px;
-    margin-left: .25em;  
+    margin-left: .15em;  
     margin-right: .25em;  
     font-size: 30px;  
     width: 2em;
@@ -176,7 +194,7 @@ img {
     border-radius: 50%;
 }  
 .fa-facebook { 
-    margin-left: 2em; 
+    /* margin-left: 2em;  */
     background: #39719c;  
     color: white;  
 }
