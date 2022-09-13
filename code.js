@@ -1,37 +1,28 @@
 const buttons = document.querySelectorAll("button")
 
-// const buttonMap = new Map()
-
-// const buttonObj = new Object()
-
-// buttons.forEach(button => {
-//     buttonObj.push(button.id)
-// })
-// console.log(buttonMap)
-
-
-// buttons.forEach(button => {
-//     console.log(button.id)
-// })
-
 let buttonIdArray = []
+const clicksObj = {}
 
 buttons.forEach(btn => {buttonIdArray.push(btn.id)})
 
 buttonIdArray.forEach(button => {
-    button.clicks = 0
+    clicksObj[button] = 0
 })
-console.log(buttonIdArray)
-
-// const buttonMap = buttonIdArray.map(btn => ({[btn]: 0}))
-// console.log(buttonMap)
-
-
-
+// console.log(buttonIdArray)
+// console.log(clicksObj)
 
 buttons.forEach(btn => {
 
     btn.addEventListener('click', event => {
-        console.log(event.target.id)
+        let clicked = event.target.id
+
+        for (let key in clicksObj) {
+            if (clicked === key) {
+                clicksObj[key] ++
+                console.log(clicksObj)
+            }
+        }
     })
 })
+
+console.log('I appreciate you taking the time to review my submission. For clicks/opens metrics I have created an Object, clicksObj, that will log the update object on to the console after each click (easily changed to log after any event desired). The format of the object is {NameOfTheButton : AmountOfTimesClicked}')
