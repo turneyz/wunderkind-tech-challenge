@@ -1,13 +1,15 @@
 @viewport {
     width: device-width ;
     zoom: 1.0 ;
-  }
+}
+
 
 body {
     width: 50%;
     margin: auto;
     margin-top: 2em;
     background-color: white;
+    min-width: 1200px;
 }
 button {
     cursor: pointer;
@@ -47,6 +49,7 @@ img {
     margin-bottom: .5em;
     padding-right: 40px;
     max-width: 84%;
+    min-width: 1200px;
 }
 #homeButton, #kitchenButton,
 #jewelryButton, #womenButton, 
